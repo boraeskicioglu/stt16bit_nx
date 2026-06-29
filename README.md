@@ -1,4 +1,9 @@
-# Sonic Triple Trouble 16-Bit — Nintendo Switch port
+<div align=center>
+
+<img src="extras/banner.png" alt="Banner" width="40%">
+
+</div>
+<h1 align=center>Sonic Triple Trouble 16-bit Android Port</h1>
 
 This is a wrapper/port of the Android version of *Sonic Triple Trouble 16-Bit* (`com.noahncopeland.game`, v1.2.8). It loads the original game binaries and runs them: we natively run the original Android ARM64 `.so` file inside a minimal emulated Android environment on the Nintendo Switch.
 
