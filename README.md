@@ -18,7 +18,7 @@ To play this game, you will need the **`.apk`** file for **version 1.2.8** (Andr
 From it, you need:
 * **`lib/arm64-v8a/libyoyo.so`** — the GameMaker Studio 2 game engine.
 * **`lib/arm64-v8a/libc++_shared.so`** — the C++ runtime.
-* The **entire `assets/` folder** from your `.apk` (containing `game.win`, `audiogroup*.dat`, and all other game data).
+* The **entire `assets/` folder** from your `.apk` (containing `game.droid`, `audiogroup*.dat`, and all other game data).
 * The **`.apk` file itself**, renamed to **`game.apk`**.
 
 #### Setup Instructions:
@@ -39,7 +39,7 @@ sdmc:/switch/stt16bit_nx/
 ├── libc++_shared.so
 ├── game.apk
 └── assets/
-    ├── game.win
+    ├── game.droid
     ├── audiogroup0.dat
     ├── audiogroup1.dat
     └── ... (all other asset files)
@@ -48,7 +48,7 @@ sdmc:/switch/stt16bit_nx/
 ### Notes
 
 * This port **will not work** in applet mode (Album). Please launch the Homebrew Menu using a game override (hold the **R** button while launching any installed game) to give it full memory access and the required syscalls.
-* Save data (`YoYoPrefsFile.txt`) and `config.txt` are kept in `sdmc:/switch/stt16bit_nx/`.
+* Save data (`save.sav`) and `config.txt` are kept in `sdmc:/switch/stt16bit_nx/`.
 
 ### Configuration
 
